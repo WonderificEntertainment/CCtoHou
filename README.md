@@ -16,6 +16,18 @@ Motion capture support will be added in the future.
 
 This project is published here to encourage collaboration.
 
+## Discord
+
+This project isn't large enough to justify its own dedicated Discord server.
+Instead, discussions take place in a thread on the [Think Procedural](https://thinkprocedural.com/)
+Discord server. To join the conversation, navigate to the [Character Creator Auto Setup for Houdini thread](https://discord.com/channels/230123485668573184/1275123376385429556)
+in the `#rigs_kinefx_apex` channel, located under the `ANIMATION/RIGGING`
+category.
+
+**Note:** I am just a regular member of Think Procedural. I have no special
+privileges, and this project is not officially endorsed by Think Procedural or
+SideFX.
+
 ## Requirements
 
 1. A character model created using Character Creator v4, exported in FBX format.
