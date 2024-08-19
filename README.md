@@ -64,8 +64,8 @@ Your directory structure should look something like this:
     - character.Fbx
     - character.json
     - character.fbxkey
-  - cc_auto_setup.hiplc
-  - README.md
+- cc_auto_setup.hiplc
+- README.md
 ```
 
 _Note:_ The `geo` directory is included in `.gitignore` for the convenience of
