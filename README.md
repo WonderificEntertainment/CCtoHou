@@ -16,20 +16,24 @@ Motion capture support will be added in the future.
 
 This project is published here to encourage collaboration.
 
+## Requirements
+
+1. A character model created using Character Creator v4, exported in FBX format.
+2. SideFX Houdini v20.5 or above. The Wrinkle Deformer node added in v20.5 is
+   utilized so prior versions are not supported.
+
 ## Houdini File Information
 
 I currently have only a Houdini Indie License, which allows me to produce
 Limited Commercial use files (`.hiplc`).
 
 I am seeking sponsorship to acquire a Houdini Commercial License or to
-collaborate with SideFX to publish this as an unrestricted `.hip` file.
+collaborate with SideFX to publish this as an unrestricted `.hip` or `.hda` file.
 
 ## Setup Instructions
 
-### Prerequisites
-
-You will need a character model created using Character Creator v4, exported in
-FBX format.
+These instructions pertain to the project in it's current state. Once it becomes
+an HDA, you would just connect your Character FBX Import node to the HDA.
 
 ### Required Character Creator Export Settings
 
