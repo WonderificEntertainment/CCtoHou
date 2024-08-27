@@ -1,20 +1,15 @@
 # Character Creator Auto Setup for SideFX Houdini
 
 **Note:** This project is in an early, unstable work-in-progress stage with a
-lot of experimental testing. **It is NOT production-ready.**
+lot of experimental testing. **It is NOT production-ready and there is currently
+no documentation or support.**
 
 ## Project Overview
 
-The aim of this project is to enable automatic Houdini rigging with APEX
-(including ragdoll effects) for any model created with Reallusion's Character
-Creator. The rigging process is handled within the `cc_auto_setup.hiplc` file.
-
-Eventually this will be turned into a Houdini Digital Asset (HDA) for easier
-use.
-
-Motion capture support will be added in the future.
-
-This project is published here to encourage collaboration.
+The aim of this project is to provide a collection of tools contained within a
+[Houdini Digital Asset](https://www.sidefx.com/docs/houdini/assets/intro) to
+facilitate animation via APEX rigging (including ragdoll effects) for any model
+created with Reallusion's Character Creator.
 
 ## Discord
 
@@ -34,18 +29,22 @@ SideFX.
 2. SideFX Houdini v20.5 or above. The Wrinkle Deformer node added in v20.5 is
    utilized so prior versions are not supported.
 
-## Houdini File Information
+## Houdini HDA Information
 
 I currently have only a Houdini Indie License, which allows me to produce
-Limited Commercial use files (`.hiplc`).
+Limited Commercial use digital assets (`.hdalc`).
 
 I am seeking sponsorship to acquire a Houdini Commercial License or to
-collaborate with SideFX to publish this as an unrestricted `.hip` or `.hda` file.
+collaborate with SideFX to publish this as an unrestricted `.hda` file.
 
 ## Setup Instructions
 
-These instructions pertain to the project in it's current state. Once it becomes
-an HDA, you would just connect your Character FBX Import node to the HDA.
+1. Clone or download this repo.
+
+2. Install the HDA `/otls/sop_cc.ccautosetup.0.0.1.hdalc` by following the
+   official docs on how to [install and manage Houdini digital assets](https://www.sidefx.com/docs/houdini/assets/install.html).
+
+3. Open one of the projects in the `/examples` directory.
 
 ### Required Character Creator Export Settings
 
@@ -64,28 +63,6 @@ These base meshes are already correctly set up and compatible.
 
 _Due to Reallusion licensing restrictions, models cannot be distributed in this
 repository._
-
-### Directory Setup
-
-1. Save your FBX file with the exact name `character.Fbx` (note the capital "F"
-   in `.Fbx`, as this is the default naming convention from Character Creator).
-2. Place the `character.Fbx` file in a directory called `geo` within this
-   repository.
-
-Your directory structure should look something like this:
-
-```
-- geo
-    - textures
-    - character.Fbx
-    - character.json
-    - character.fbxkey
-- cc_auto_setup.hiplc
-- README.md
-```
-
-_Note:_ The `geo` directory is included in `.gitignore` for the convenience of
-collaborators.
 
 ## License
 
