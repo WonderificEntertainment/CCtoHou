@@ -41,10 +41,11 @@ collaborate with SideFX to publish this as an unrestricted `.hda` file.
 
 1. Clone or download this repo.
 
-2. Install the HDA `/otls/sop_cc.ccautosetup.0.0.1.hdalc` by following the
+2. Install the HDA `/otls/sop_charactercreator.ccautosetup.0.0.1.hdalc` by following the
    official docs on how to [install and manage Houdini digital assets](https://www.sidefx.com/docs/houdini/assets/install.html).
 
-3. Open one of the projects in the `/examples` directory.
+3. Open `ccautosetup_demo.hiplc` to see a few different demos. _Note:_ demos are
+   works-in-progress and may not work.
 
 ### Required Character Creator Export Settings
 
