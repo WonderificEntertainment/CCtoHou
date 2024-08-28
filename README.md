@@ -1,4 +1,4 @@
-# Character Creator Auto Setup for SideFX Houdini
+# Character Creator Tools for SideFX Houdini
 
 **Note:** This project is in an early, unstable work-in-progress stage with a
 lot of experimental testing. **It is NOT production-ready and there is currently
@@ -15,7 +15,7 @@ created with Reallusion's Character Creator.
 
 This project isn't large enough to justify its own dedicated Discord server.
 Instead, discussions take place in a thread on the [Think Procedural](https://thinkprocedural.com/)
-Discord server. To join the conversation, navigate to the [Character Creator Auto Setup for Houdini thread](https://discord.com/channels/230123485668573184/1275123376385429556)
+Discord server. To join the conversation, navigate to the [Character Creator Tools thread](https://discord.com/channels/230123485668573184/1275123376385429556)
 in the `#rigs_kinefx_apex` channel, located under the `ANIMATION/RIGGING`
 category.
 
@@ -25,7 +25,8 @@ SideFX.
 
 ## Requirements
 
-1. A character model created using Character Creator v4, exported in FBX format.
+1. A CC3 or CC3+ character model created using Character Creator exported in FBX
+   format.
 2. SideFX Houdini v20.5 or above. The Wrinkle Deformer node added in v20.5 is
    utilized so prior versions are not supported.
 
@@ -41,10 +42,10 @@ collaborate with SideFX to publish this as an unrestricted `.hda` file.
 
 1. Clone or download this repo.
 
-2. Install the HDA `/otls/sop_charactercreator.ccautosetup.0.0.1.hdalc` by following the
+2. Install the HDA `/otls/cctools.0.0.1.hdalc` by following the
    official docs on how to [install and manage Houdini digital assets](https://www.sidefx.com/docs/houdini/assets/install.html).
 
-3. Open `ccautosetup_demo.hiplc` to see a few different demos. _Note:_ demos are
+3. Open `cc_demo.hiplc` to see a few different demos. _Note:_ demos are
    works-in-progress and may not work.
 
 ### Required Character Creator Export Settings
