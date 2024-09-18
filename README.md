@@ -11,32 +11,21 @@ The aim of this project is to provide a collection of tools contained within a
 facilitate animation via APEX rigging (including ragdoll effects) for any model
 created with Reallusion's Character Creator.
 
-## Discord
-
-This project isn't large enough to justify its own dedicated Discord server.
-Instead, discussions take place in a thread on the [Think Procedural](https://thinkprocedural.com/)
-Discord server. To join the conversation, navigate to the [Character Creator Tools thread](https://discord.com/channels/230123485668573184/1275123376385429556)
-in the `#rigs_kinefx_apex` channel, located under the `ANIMATION/RIGGING`
-category.
-
-**Note:** I am just a regular member of Think Procedural. I have no special
-privileges, and this project is not officially endorsed by Think Procedural or
-SideFX.
+### [Join our Discord server](https://discord.gg/VjxAau35tp)
 
 ## Requirements
 
 1. A CC3 or CC3+ character model created using Character Creator exported in FBX
    format.
-2. SideFX Houdini v20.5 or above. The Wrinkle Deformer node added in v20.5 is
-   utilized so prior versions are not supported.
+2. SideFX Houdini v20.5 or above.
 
 ## Houdini HDA Information
 
 I currently have only a Houdini Indie License, which allows me to produce
 Limited Commercial use digital assets (`.hdalc`).
 
-I am seeking sponsorship to acquire a Houdini Commercial License or to
-collaborate with SideFX to publish this as an unrestricted `.hda` file.
+When the first v1.0 release is ready, I will also publish the HDA on [Orbolt](https://www.orbolt.com/) for
+free.
 
 ## Setup Instructions
 
@@ -45,7 +34,7 @@ collaborate with SideFX to publish this as an unrestricted `.hda` file.
 2. Install the HDA `/otls/cctools.0.0.1.hdalc` by following the
    official docs on how to [install and manage Houdini digital assets](https://www.sidefx.com/docs/houdini/assets/install.html).
 
-3. Open `cc_demo.hiplc` to see a few different demos. _Note:_ demos are
+3. Open `cctools_demos.hiplc` to see a few different demos. _Note:_ demos are
    works-in-progress and may not work.
 
 ### Required Character Creator Export Settings
@@ -57,8 +46,7 @@ collaborate with SideFX to publish this as an unrestricted `.hda` file.
 - **Default Pose:** A-Pose (CC3+ Bind Pose)
 - Uncheck **Use Subdivided Mesh**.
 
-_Note:_ Characters exported with subdivisions are not supported, as the model
-will be subdivided within Houdini instead.
+_Note:_ Characters exported with subdivisions are not supported.
 
 You can also use the [free 3D character base models provided by Reallusion](https://www.reallusion.com/character-creator/free-3d-character-base.html).
 These base meshes are already correctly set up and compatible.
