@@ -1,6 +1,10 @@
-<div style="text-align: center;">
-   <img src="./media/logos/houdini-cctools_logo.svg" width=300/>
-</div>
+<h1 align="center">
+   <br>
+   <br>
+   <img width="320" src="./media/logos/houdini-cctools_logo.svg" alt="Houdini Character Creator Tools (CCTools)">
+   <br>
+   <br>
+</h1>
 
 # Character Creator Tools for SideFX Houdini
 
