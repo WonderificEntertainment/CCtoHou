@@ -1,23 +1,24 @@
 <h1 align="center">
    <br>
    <br>
-   <img width="320" src="./media/logos/houdini-cctools_logo.svg" alt="Houdini Character Creator Tools (CCTools)">
+   <img width="320" src="./media/logos/houdini-cctools_logo.svg" alt="Houdini CCTools">
+   <br>
+   <br>
+   Houdini CCTools
    <br>
    <br>
 </h1>
 
-# Character Creator Tools for SideFX Houdini
+## Integration Tools for [Reallusion Character Creator][cc] in [SideFX Houdini][houdini]
 
-**Note:** This project is in an early, unstable work-in-progress stage with a
-lot of experimental testing. **It is NOT production-ready and there is currently
-no documentation or support.**
+Houdini CCTools is a [Houdini Digital Asset](https://www.sidefx.com/docs/houdini/assets/intro)
+designed to streamline working with models exported from Character Creator. Its
+primary focus is enhancing animation workflows, offering robust support for
+APEX rigging, including dynamic ragdoll effects.
 
-## Project Overview
-
-The aim of this project is to provide a collection of tools contained within a
-[Houdini Digital Asset](https://www.sidefx.com/docs/houdini/assets/intro) to
-facilitate animation via APEX rigging (including ragdoll effects) for any model
-created with Reallusion's Character Creator.
+This project is in an early, experimental phase and is currently unstable. **It
+is NOT ready for production use, and there is no available documentation or
+support at this time.**
 
 ### [Join our Discord server](https://discord.gg/VjxAau35tp)
 
@@ -29,11 +30,11 @@ created with Reallusion's Character Creator.
 
 ## Houdini HDA Information
 
-This repo contains the Limited Commercial Use Houdini Digital Asset (HDA).
+This repository includes the Limited Commercial Use Houdini Digital Asset (HDA).
 
-Beginning with the first v1.0 production-ready release, this project will also
-be published on [Orbolt](https://www.orbolt.com/) for free in order to provide
-an unrestricted HDA.
+Starting with the first v1.0 production-ready release, the project will also be
+made available for free on [Orbolt](https://www.orbolt.com/), offering an
+unrestricted version of the HDA.
 
 ## Setup Instructions
 
@@ -59,10 +60,10 @@ _Note:_ Characters exported with subdivisions are not supported.
 You can also use the [free 3D character base models provided by Reallusion](https://www.reallusion.com/character-creator/free-3d-character-base.html).
 These base meshes are already correctly set up and compatible.
 
-_Due to Reallusion licensing restrictions, models cannot be distributed in this
-repository._
-
 ## License
 
 This project is released into the public domain as free and unencumbered
 software. For more details, see the [UNLICENSE](./UNLICENSE) file.
+
+[cc]: https://www.reallusion.com/character-creator/
+[houdini]: https://www.sidefx.com/products/houdini/
