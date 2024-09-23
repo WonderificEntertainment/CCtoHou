@@ -1,3 +1,7 @@
+<div style="text-align: center;">
+   <img src="./media/logos/houdini-cctools_logo.svg" width=300/>
+</div>
+
 # Character Creator Tools for SideFX Houdini
 
 **Note:** This project is in an early, unstable work-in-progress stage with a
@@ -21,11 +25,11 @@ created with Reallusion's Character Creator.
 
 ## Houdini HDA Information
 
-I currently have only a Houdini Indie License, which allows me to produce
-Limited Commercial use digital assets (`.hdalc`).
+This repo contains the Limited Commercial Use Houdini Digital Asset (HDA).
 
-When the first v1.0 release is ready, I will also publish the HDA on [Orbolt](https://www.orbolt.com/) for
-free.
+Beginning with the first v1.0 production-ready release, this project will also
+be published on [Orbolt](https://www.orbolt.com/) for free in order to provide
+an unrestricted HDA.
 
 ## Setup Instructions
 
