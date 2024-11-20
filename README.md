@@ -1,24 +1,25 @@
-<h1 align="center">
+<h1 style="text-align: center">
    <br>
    <br>
-   <img width="320" src="./media/logos/houdini-cctools_logo.svg" alt="Houdini CCTools">
+   <img width="320" src="media/logos/cctohou-logo.svg" alt="CCtoHou">
    <br>
    <br>
-   Houdini CCTools
+   CCtoHou
    <br>
    <br>
 </h1>
 
 ## Integration Tools for [Reallusion Character Creator][cc] in [SideFX Houdini][houdini]
 
-Houdini CCTools is a [Houdini Digital Asset](https://www.sidefx.com/docs/houdini/assets/intro)
+CCtoHou is a [Houdini Digital Asset](https://www.sidefx.com/docs/houdini/assets/intro)
 designed to streamline working with models exported from Character Creator. Its
 primary focus is enhancing animation workflows, offering robust support for
 APEX rigging, including dynamic ragdoll effects.
 
-This project is in an early, experimental phase and is currently unstable. **It
-is NOT ready for production use, and there is no available documentation or
-support at this time.**
+⚠️⚠️⚠️ Warning: This project is in an early experimental phase. It is currently unstable and often non-functional. 
+**It is NOT ready for production use, and no documentation or support is available at this time.** ⚠️⚠️⚠️
+
+The goal is to release a feature-complete version 1.0 by the end of 2024, though this may be delayed until January 2025.
 
 ### [Join our Discord server](https://discord.gg/VjxAau35tp)
 
@@ -40,10 +41,10 @@ unrestricted version of the HDA.
 
 1. Clone or download this repo.
 
-2. Install the HDA `/otls/cctools.0.0.1.hdalc` by following the
+2. Install the HDA `/otls/cctohou.0.0.1.hdalc` by following the
    official docs on how to [install and manage Houdini digital assets](https://www.sidefx.com/docs/houdini/assets/install.html).
 
-3. Open `cctools_demos.hiplc` to see a few different demos. _Note:_ demos are
+3. Open `cctohou_demos.hiplc` to see a few different demos. _Note:_ demos are
    works-in-progress and may not work.
 
 ### Required Character Creator Export Settings
