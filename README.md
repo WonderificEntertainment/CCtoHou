@@ -1,4 +1,4 @@
-<h1 style="text-align: center">
+<h1 align="center">
    <br>
    <br>
    <img width="320" src="media/logos/cctohou-logo.svg" alt="CCtoHou">
