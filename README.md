@@ -19,7 +19,8 @@ APEX rigging, including dynamic ragdoll effects.
 ⚠️⚠️⚠️ Warning: This project is in an early experimental phase. It is currently unstable and often non-functional. 
 **It is NOT ready for production use, and no documentation or support is available at this time.** ⚠️⚠️⚠️
 
-The goal is to release a feature-complete version 1.0 by the end of 2024, though this may be delayed until January 2025.
+A production-ready 1.0 release will be made available shortly after a production build of APEX is included in an updated 
+version of Houdini.
 
 ### [Join our Discord server](https://discord.gg/VjxAau35tp)
 
