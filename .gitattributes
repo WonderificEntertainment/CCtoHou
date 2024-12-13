@@ -1,3 +1,4 @@
 *.hiplc filter=lfs diff=lfs merge=lfs -text
 *.hdalc filter=lfs diff=lfs merge=lfs -text
 *.png filter=lfs diff=lfs merge=lfs -text
+*.sc filter=lfs diff=lfs merge=lfs -text

@@ -45,9 +45,6 @@ unrestricted version of the HDA.
 2. Install the HDA `/otls/cctohou.0.0.1.hdalc` by following the
    official docs on how to [install and manage Houdini digital assets](https://www.sidefx.com/docs/houdini/assets/install.html).
 
-3. Open `cctohou_demos.hiplc` to see a few different demos. _Note:_ demos are
-   works-in-progress and may not work.
-
 ### Required Character Creator Export Settings
 
 - **Target Tool Preset:** Maya
