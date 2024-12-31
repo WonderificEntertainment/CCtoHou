@@ -19,7 +19,6 @@ APEX rigging, including dynamic ragdoll effects.
 > [!IMPORTANT]
 > This project is in an early experimental phase. It is currently unstable and often non-functional.
 > It is NOT ready for production use, and no documentation or support is available at this time.
-> without prior warning.
 >
 > A production-ready 1.0 release will be made available shortly after a production build of APEX is included in an 
 > updated version of Houdini.
